@@ -7,9 +7,10 @@
 BASE STYLING
 ------------------------------------------------------------------------------
 */
-
-
-
+img {
+    width: 100%;
+    margin: 2em auto;
+}
 
 
 
@@ -25,12 +26,30 @@ MAIN STYLING
 ------------------------------------------------------------------------------
 */
 
+nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    padding: 1em;
+    margin: 1em ;
+    margin-top: 0;
+}
 
 
-
-
-
-
+#student_name {
+ display: flex;
+ justify-content: center;
+ margin-bottom: 0;
+}
 
 
 
