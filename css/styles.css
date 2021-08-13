@@ -15,8 +15,13 @@ img {
 body {
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
+    background-color: ghostwhite;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+}
 
 content{
     display: flex;
@@ -25,12 +30,17 @@ content{
     margin: 0 auto;
 }
 
+header {
+    
+}
+
 a{
     font-weight: bold;
-    background-color:gainsboro;
+    background-color: white;
     display: flex;
     padding: 1em;
     margin: 0 auto;
+    line-height: 1em;
  }
 
 a:link{
@@ -47,31 +57,37 @@ a:visited {
     color:firebrick;
 }
 
+buttons {
+    width: 400px;
+    text-align: center;
+}
 /* 
 ------------------------------------------------------------------------------
 MAIN STYLING
 ------------------------------------------------------------------------------
 */
 navigation {
-    justify-content: center;
+    
 }
 nav {
     display: flex;
     justify-content: center;
     text-align: center;
+    padding: 5px;
+    
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 5px;
    
 }
 
 ul li {
-    padding: 1em;
+    padding: 0 80%;
     margin: 1em ;
-    margin-top: 0;
+  
   
    
 }
