@@ -15,7 +15,6 @@ img {
 body {
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
-    background-color: ghostwhite;
     margin: 0;
     
 }
@@ -42,11 +41,12 @@ content{
 
 header {
     padding: 1em;
-    background: whitesmoke;
+    background-color: whitesmoke;
+    
 }
 
 a{
-    color: black
+    color:dodgerblue;
  }
 
 a:link{
@@ -80,6 +80,7 @@ MAIN STYLING
 navigation {
     
 }
+
 nav {
 justify-content: space-around;    
 }
@@ -138,38 +139,6 @@ MEDIA QUERIES
        margin-left: auto;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
