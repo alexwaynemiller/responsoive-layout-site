@@ -36,7 +36,7 @@ header {
 }
 
 a{
-    
+    color: black
  }
 
 a:link{
@@ -45,12 +45,17 @@ a:link{
 }
 
 a:hover {
-    color: cadetblue;
+    color: gold;
     
 }
 
 a:visited {
-    color:firebrick;
+    /* color:firebrick; */
+    
+}
+
+a:focus {
+    color:aquamarine ;
 }
 
 buttons {
@@ -84,7 +89,8 @@ ul li {
     background-color: white;
     margin:  5px 1em;
     padding: 1em;
-    
+    color: black;
+    font-weight: bold;
 }
 
 #student_name {
@@ -115,7 +121,11 @@ MEDIA QUERIES
 
     .mobile-footer {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
+    }
+
+    #back-to-top {
+       margin-left: auto;
     }
 }
 
