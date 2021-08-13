@@ -16,23 +16,32 @@ body {
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
     background-color: ghostwhite;
+    margin: 0;
+    
 }
 
+main {
+    padding: 1em;
+}
 footer {
     display: flex;
     flex-direction: column;
     border-top: 1px solid lightgray;
+    background-color:whitesmoke;
+    margin: 0 auto;
+    padding: 1em;
 }
 
 content{
     display: flex;
     justify-content: center;
     padding: 2em;
-    margin: 0 auto;
+    
+    
 }
 
 header {
-    
+    padding: 1em;
 }
 
 a{
@@ -78,7 +87,7 @@ nav ul {
    display: flex;
    flex-direction: column;
    padding-left: 0;
-   margin: 1rem;
+   /* margin: 1rem; */
    
 }
 
