@@ -21,6 +21,7 @@ body {
 footer {
     display: flex;
     flex-direction: column;
+    border-top: 1px solid lightgray;
 }
 
 content{
@@ -53,7 +54,8 @@ a:visited {
 }
 
 buttons {
-    
+    display: flex;
+    background-color: teal;
 }
 /* 
 ------------------------------------------------------------------------------
@@ -64,28 +66,33 @@ navigation {
     
 }
 nav {
-    
-    
+justify-content: space-around;    
 }
 
 nav ul {
-    
+   display: flex;
+   flex-direction: column;
+   padding-left: 0;
+   margin: 1rem;
    
 }
 
 ul li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin:  5px 1em;
+    padding: 1em;
     
-  
-   
 }
-
 
 #student_name {
  display: flex;
  justify-content: center;
  margin-bottom: 0;
- 
 }
+
 
 
 .content-heading {
@@ -100,8 +107,17 @@ MEDIA QUERIES
 ------------------------------------------------------------------------------
 */
 
+@media only screen and (max-width: 768px){
 
+    #footer-nav {
+        display: none;
+    }
 
+    .mobile-footer {
+        display: flex;
+        justify-content: space-around;
+    }
+}
 
 
 
