@@ -45,6 +45,10 @@ header {
     
 }
 
+p {
+    font-size: 1.25em;
+}
+
 a{
     color:dodgerblue;
  }
