@@ -170,20 +170,25 @@ MEDIA QUERIES
         flex-direction: row-reverse;
         padding-left: 0;
         margin: 0;    
+        
      }
 
      
+    nav li{
+        background-color: transparent;
+}
 
     nav {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
+        margin-top: 0; 
       }
     
 
       #student_name{
-      margin-right: auto;
-
+        margin: 0;
+        padding: 0 1.25rem;
       }
 
      #intro_paragraph_image {
@@ -197,7 +202,6 @@ MEDIA QUERIES
         padding-top: 1.25em;
     } 
 
-   
 }
 
 @media screen and (min-width: 1024px){
