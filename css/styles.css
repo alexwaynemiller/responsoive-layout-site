@@ -163,7 +163,17 @@ MEDIA QUERIES
     }
 }
 
+
 @media screen and (min-width: 768px) {
+
+
+
+
+
+
+}
+
+@media screen and (min-width: 1024px) {
 
     nav ul {
         display: flex;   
@@ -188,30 +198,27 @@ MEDIA QUERIES
 
       #student_name{
         margin: 0;
-        padding: 0 1.25rem;
+        padding: 0 1rem;
       }
 
      #intro_paragraph_image {
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
-       
     } 
+
+    #intro {
+        padding-left: 1rem;
+    }
 
     .nav-pic { 
         padding-top: 1.25em;
+        padding-right: 1em;
     } 
 
 }
 
-@media screen and (min-width: 1024px){
 
-
-
-
-
-
-}
 
 
 
