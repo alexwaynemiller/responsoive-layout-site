@@ -172,12 +172,7 @@ MEDIA QUERIES
         margin: 0;    
      }
 
-     #student_name {
-        display: flex;
-        flex-direction: row;
-        justify-content: right;
-        margin-right: auto;
-    }
+     
 
     nav {
         display: flex;
@@ -185,6 +180,12 @@ MEDIA QUERIES
         align-items: center;
       }
     
+
+      #student_name{
+      margin-right: auto;
+
+      }
+
      #intro_paragraph_image {
         display: flex;
         flex-direction: row-reverse;
@@ -192,7 +193,11 @@ MEDIA QUERIES
        
     } 
 
-         
+    .nav-pic { 
+        padding-top: 1.25em;
+    } 
+
+   
 }
 
 @media screen and (min-width: 1024px){
