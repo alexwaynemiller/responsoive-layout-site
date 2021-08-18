@@ -140,8 +140,8 @@ ul li {
  justify-content: center;
  margin: 0 auto;
  margin-bottom: .5em;
+ margin-left: auto;
 }
-
 
 
 .content-heading {
@@ -240,22 +240,22 @@ MEDIA QUERIES
         padding-bottom: 3rem;
     }
 
-    #footer-nav {
-        display: none;
-    }
-
     .mobile-footer {
         display: flex;
         justify-content: space-between;
     }
 
     #back-to-top {
-       margin-left: auto;
+       display: none;
+    }
+
+    footer {
+        display: flex;
     }
 }
 
 @media screen and (min-width: 1024px) {
-
+    
     section {
         width: 33%;
         margin: 0 auto;
@@ -266,6 +266,7 @@ MEDIA QUERIES
     nav ul {
         display: flex;   
         flex-direction: row;
+        justify-content: space-around;
         padding-left: 0;
         margin: 0;    
         
@@ -274,20 +275,21 @@ MEDIA QUERIES
      
     nav li{
         background-color: transparent;
+        /* width: 50%; */
 }
 
-    nav {
+    /* nav {
         display: flex;
-        /* justify-content: space-between; */
-        align-items: flex-end;
-        margin-top: 0; 
-      }
+        justify-content: space-around;
+       flex-wrap: wrap;
+      } */
     
 
       #student_name{
         margin: 0;
         padding: 0 1rem;
-        
+        /* width: 50%; */
+        margin-right: auto;
       }
 
      #intro_paragraph_image {
@@ -314,7 +316,7 @@ MEDIA QUERIES
    
    #footer-nav {
        display: flex;
-
+        justify-content: space-around;
    }
 
    
@@ -323,10 +325,7 @@ MEDIA QUERIES
        display: none;
    }
 
-   nav {
-    width: initial;
-    margin-bottom: 0;
-    
+   
     
   }
 
@@ -340,5 +339,3 @@ MEDIA QUERIES
 
 
 
-
-}
