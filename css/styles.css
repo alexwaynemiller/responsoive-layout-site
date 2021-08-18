@@ -22,7 +22,7 @@ body {
 }
 
 main {
-    padding: 1em;
+    padding: 0;
     margin-top: 1em;
 
 }
@@ -73,7 +73,11 @@ a:hover {
     
 }
 
-
+#contact {
+    background-color: whitesmoke;
+    margin: 0;
+   padding: 3em;
+}
 
 a:focus {
     color:aquamarine ;
@@ -201,15 +205,37 @@ MEDIA QUERIES
         justify-content: center;
     } 
 
-    #intro {
+      #intro {
         padding-left: 1rem;
         justify-content: left;
     }
 
-    .nav-pic { 
+     .nav-pic { 
         padding-top: 1.25em;
         padding-right: 1em;
     } 
+
+     .main-content {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+       
+    }
+     #portfolio {
+        display: flex;
+        /* justify-content: cent */
+        flex-direction: column;
+        margin-left: auto;
+    }
+     section {
+        width: 50%;
+        margin: 0 auto;
+        padding: 0 1em;
+    }
+
+    header {
+        padding-bottom: 3rem;
+    }
 }
 
 @media screen and (min-width: 1024px) {
