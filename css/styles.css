@@ -39,6 +39,9 @@ footer {
 
 }
 
+hr {width: 90%;
+    background-color: whitesmoke;
+}
 #contact-border {
     border-bottom: 1px solid lightgray;
     background-color: whitesmoke;
