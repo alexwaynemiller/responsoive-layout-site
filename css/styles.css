@@ -23,16 +23,23 @@ body {
 
 main {
     padding: 0;
-    margin-top: 1em;
+    margin-top: 1rem;
 
 }
 footer {
     display: flex;
     flex-direction: column;
-    border-top: 1px solid lightgray;
+    /* border-top: 1px solid lightgray; */
     background-color:whitesmoke;
     margin: 0 auto;
     padding: 1em;
+    
+
+}
+
+#contact-border {
+    border-bottom: 1px solid lightgray;
+    background-color: whitesmoke;
 }
 
 content{
@@ -81,6 +88,10 @@ a:hover {
 
 a:focus {
     color:aquamarine ;
+}
+
+section {
+    padding-top: 0; 
 }
 
 buttons {
@@ -133,6 +144,8 @@ ul li {
 
 .content-heading {
     text-align: center;
+    /* padding-top: 4rem; */
+    margin: 0 auto;
 }
 
 
@@ -150,23 +163,6 @@ h2 {
 MEDIA QUERIES
 ------------------------------------------------------------------------------
 */
-
-@media only screen and (max-width: 768px){
-
-    #footer-nav {
-        display: none;
-    }
-
-    .mobile-footer {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    #back-to-top {
-       margin-left: auto;
-    }
-}
-
 
 @media screen and (min-width: 768px) {
 
@@ -223,18 +219,33 @@ MEDIA QUERIES
     }
      #portfolio {
         display: flex;
-        /* justify-content: cent */
         flex-direction: column;
         margin-left: auto;
+        margin-top: 1.5rem;
+        padding: 1rem;
     }
      section {
         width: 50%;
         margin: 0 auto;
         padding: 0 1em;
+
     }
 
     header {
         padding-bottom: 3rem;
+    }
+
+    #footer-nav {
+        display: none;
+    }
+
+    .mobile-footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #back-to-top {
+       margin-left: auto;
     }
 }
 
