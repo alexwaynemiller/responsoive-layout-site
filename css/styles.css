@@ -21,6 +21,7 @@ body {
     font-weight: 300;
     margin: 0 auto;
     max-width: 1024px;
+    background-color: whitesmoke;
     
 }
 
@@ -220,6 +221,7 @@ MEDIA QUERIES
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
+        background-color: white;
        
     }
      #portfolio {
