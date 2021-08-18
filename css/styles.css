@@ -36,8 +36,6 @@ footer {
     background-color:whitesmoke;
     margin: 0 auto;
     padding: 1em;
-    
-
 }
 
 hr {width: 90%;
@@ -52,8 +50,6 @@ content{
     display: flex;
     justify-content: center;
     padding: 2em;
-    
-    
 }
 
 header {
@@ -230,6 +226,8 @@ MEDIA QUERIES
         margin-left: auto;
         margin-top: 1.5rem;
         padding: 1rem;
+        background-color: white;
+        width: 100%;
     }
      section {
         width: 50%;
