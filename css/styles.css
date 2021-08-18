@@ -251,6 +251,13 @@ MEDIA QUERIES
 
 @media screen and (min-width: 1024px) {
 
+    section {
+        width: 33%;
+        margin: 0 auto;
+        padding: 0 1em;
+
+    }
+
     nav ul {
         display: flex;   
         flex-direction: row;
@@ -298,7 +305,10 @@ MEDIA QUERIES
        flex-direction: row;
        padding: 10px;
    }
-
+   
+   #footer-nav {
+       display: ;
+   }
 }
 
 
