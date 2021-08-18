@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
 }
+
 
 /* 
 ------------------------------------------------------------------------------
@@ -29,7 +32,6 @@ main {
 footer {
     display: flex;
     flex-direction: column;
-    /* border-top: 1px solid lightgray; */
     background-color:whitesmoke;
     margin: 0 auto;
     padding: 1em;
@@ -53,7 +55,7 @@ content{
 header {
     padding: 1em;
     background-color: whitesmoke;
-    
+
 }
 
 .nav-pic { 
@@ -273,8 +275,8 @@ MEDIA QUERIES
 
     nav {
         display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
+        /* justify-content: space-between; */
+        align-items: flex-end;
         margin-top: 0; 
       }
     
@@ -282,6 +284,7 @@ MEDIA QUERIES
       #student_name{
         margin: 0;
         padding: 0 1rem;
+        
       }
 
      #intro_paragraph_image {
@@ -307,18 +310,32 @@ MEDIA QUERIES
    }
    
    #footer-nav {
-       display: ;
+       display: flex;
+
    }
+
+   
+
+   #back-to-top {
+       display: none;
+   }
+
+   nav {
+    width: initial;
+    margin-bottom: 0;
+    
+    
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
