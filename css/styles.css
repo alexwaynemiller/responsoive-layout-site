@@ -150,17 +150,13 @@ MEDIA QUERIES
     #main-nav {
         display: flex;   
         justify-content: flex-end;
-        padding-left: 0;
-        margin: 0;    
-        flex-direction: row;
-     }
-
-     
-     
-    .nav-item{
-        background-color: transparent;
-        
+        background-color: peachpuff;
+        margin: 0 auto;
     }
+
+    
+     
+    
 
     
 
@@ -239,13 +235,7 @@ MEDIA QUERIES
     nav li{
         background-color: transparent;
         /* width: 50%; */
-}
-
-    /* nav {
-        display: flex;
-        justify-content: space-around;
-       flex-wrap: wrap;
-      } */
+    }
     
 
       #student_name{
