@@ -4,7 +4,14 @@
     padding: 0;
 }
 
+ul {
+    list-style: none;
+    padding-left: 0;
+}
 
+a {
+    text-decoration: none;
+}
 /* 
 ------------------------------------------------------------------------------
 BASE STYLING
@@ -32,10 +39,20 @@ main {
 }
 footer {
     display: flex;
-    flex-direction: column;
     background-color:whitesmoke;
     margin: 0 auto;
     padding: 1em;
+    justify-content: flex-end;
+}
+
+.mobile-footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+#footer-nav{
+    display: none;
 }
 
 hr {width: 90%;
@@ -82,7 +99,7 @@ a:hover {
 #contact {
     background-color: whitesmoke;
     margin: 0;
-   padding: 3em;
+    padding: 3em;
 }
 
 a:focus {
@@ -93,16 +110,29 @@ section {
     padding-top: 0; 
 }
 
-buttons {
-    display: flex;
-    background-color: teal;
-}
+
 /* 
 ------------------------------------------------------------------------------
 MAIN STYLING
 ------------------------------------------------------------------------------
 */
+h1, .main-nav {
+text-align: center;
 
+}
+
+.main-nav, .man-nav li {
+    width: 100%;
+}
+
+.main-nav a {
+    text-transform: uppercase;
+}
+
+.main-nav li {
+    padding: 10px 0;
+    margin: 5px auto;
+}
 .nav-item {
    display: flex;
    flex-direction: column;
@@ -123,10 +153,8 @@ MAIN STYLING
 }
 
 
-.content-heading {
+#portfolio {
     text-align: center;
-    /* padding-top: 4rem; */
-    margin: 0 auto;
 }
 
 
@@ -145,52 +173,68 @@ MEDIA QUERIES
 ------------------------------------------------------------------------------
 */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px){
+    
+    .main-nav{
+        margin-top: 0;
+    }
+    .main-nav li {
+        display: inline-block;   
+        margin-top: 0;
+        width: auto;
+        margin-right: 15px;
+        background-color: whitesmoke;
+    } 
 
-    #main-nav {
-        display: flex;   
-        justify-content: flex-end;
-        background-color: peachpuff;
+    .main-nav li:last-child{
+        margin-right: 0;
+    }
+
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color: white;
+    }
+
+    section {
+        width: 50%;
         margin: 0 auto;
+        padding: 0 1em;
+    }
+    
+
+
+
+
+
+
+
+
+
+    footer {
+        display: flex;
+    
     }
 
-    
-     
-    
-
-    
-
-      #student_name{
-        margin-right: auto;
-        padding: 1em;
-       
+    #footer-nav {
+        display: flex;    
+        justify-content: flex-end;
     }
 
-
-      #intro_paragraph_image {
+    #intro_paragraph_image {
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
     } 
 
-      #intro {
-        padding-left: 1rem;
-        justify-content: left;
-    }
-
-     .nav-pic { 
+    .nav-pic { 
         padding-top: 1.25em;
         padding-right: 1em;
     } 
 
-     .main-content {
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        background-color: white;
-       
-    }
-     #portfolio {
+    #portfolio {
         display: flex;
         flex-direction: column;
         margin-left: auto;
@@ -199,26 +243,16 @@ MEDIA QUERIES
         background-color: white;
         width: 100%;
     }
-     section {
-        width: 50%;
-        margin: 0 auto;
-        padding: 0 1em;
-    }
-
-
-    .mobile-footer {
-        display: flex;
-        justify-content: space-between;
-    }
 
     #back-to-top {
-       display: none;
-    }
-
-    footer {
-        display: flex;
-    }
+        display: none;
+     }
+    
 }
+
+
+
+
 
 @media screen and (min-width: 1024px) {
     
@@ -234,8 +268,8 @@ MEDIA QUERIES
      
     nav li{
         background-color: transparent;
-        /* width: 50%; */
-    }
+        width: 50%; 
+    } 
     
 
       #student_name{
