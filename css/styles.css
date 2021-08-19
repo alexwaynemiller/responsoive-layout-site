@@ -41,10 +41,7 @@ footer {
 hr {width: 90%;
     background-color: whitesmoke;
 }
-#contact-border {
-    border-bottom: 1px solid lightgray;
-    background-color: whitesmoke;
-}
+
 
 content{
     display: flex;
@@ -106,34 +103,16 @@ MAIN STYLING
 ------------------------------------------------------------------------------
 */
 
-h1, .nav ul {
-    text-align: center;
-}
-
-nav {
-justify-content: space-around;    
-}
-
-nav ul {
+.nav-item {
    display: flex;
    flex-direction: column;
-   padding-left: 0;
-   margin: 0;
-  
-   
+   padding: .5rem;
+   margin: 0.25rem 0;
+   list-style: none;
+   font-weight: bold;
+   background-color: white;
 }
 
-ul li {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    background-color: white;
-    margin:  3px 0;
-    padding: 0.5em 1em;
-    color: black;
-    font-weight: bold;
-
-}
 
 #student_name {
  display: flex;
@@ -168,33 +147,28 @@ MEDIA QUERIES
 
 @media screen and (min-width: 768px) {
 
-    nav ul {
+    #main-nav {
         display: flex;   
-        flex-direction: row;
-        justify-content: center;
+        justify-content: flex-end;
         padding-left: 0;
         margin: 0;    
-        
+        flex-direction: row;
      }
 
      
-    nav li{
+     
+    .nav-item{
         background-color: transparent;
-}
-
-    nav {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         
-        margin-top: 0; 
-      }
+    }
+
+    
 
       #student_name{
-        margin: 0;
+        margin-right: auto;
         padding: 1em;
-        
-      }
+       
+    }
 
 
       #intro_paragraph_image {
@@ -233,12 +207,8 @@ MEDIA QUERIES
         width: 50%;
         margin: 0 auto;
         padding: 0 1em;
-
     }
 
-    header {
-        padding-bottom: 3rem;
-    }
 
     .mobile-footer {
         display: flex;
@@ -263,14 +233,7 @@ MEDIA QUERIES
 
     }
 
-    nav ul {
-        display: flex;   
-        flex-direction: row;
-        justify-content: space-around;
-        padding-left: 0;
-        margin: 0;    
-        
-     }
+    
 
      
     nav li{
