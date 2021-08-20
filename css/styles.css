@@ -18,7 +18,7 @@ BASE STYLING
 ------------------------------------------------------------------------------
 */
 img {
-    width: 100%;
+    width: 90%;
     margin: 2em auto;
     margin-top: 0;
     padding: 0;
@@ -86,6 +86,7 @@ header {
 p {
     font-size: 1.25em;
     padding: 1.5rem;
+    padding-bottom: 2rem;
 }
 
 a{
@@ -288,7 +289,7 @@ MEDIA QUERIES
     section {
         width: 33%;
         margin: 0 auto;
-        padding: 0 1em;
+        padding: 0 .5em;
     }
     
 
@@ -299,7 +300,10 @@ MEDIA QUERIES
    #student-name {
        margin: 0;
    }
-    
+    img {
+        width: 100%;
+        padding: 0;
+    }
   }
 
   
