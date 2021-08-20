@@ -51,13 +51,21 @@ footer {
     justify-content: flex-end;
 }
 
-
+h5 {
+    margin: 0;
+    margin-right: auto;
+    margin-left: 2rem;
+}
 #footer-nav{
     display: none;
     margin: 2rem;
     margin-top: 0;
     width: 100%;
     
+}
+
+.bottom-nav {
+    display: none;
 }
 
 hr {width: 90%;
@@ -122,6 +130,10 @@ section {
 }
 
 
+footer {
+    padding: 1rem 0;
+}
+
 /* 
 ------------------------------------------------------------------------------
 MAIN STYLING
@@ -179,9 +191,15 @@ text-align: center;
 
 h2 {
     margin-top: 0;
-    
+}
+
+#back-to-top{
+    margin-left: auto;
+    margin: 0;
+    padding-right: 2rem;
 }
 /* 
+
 ------------------------------------------------------------------------------
 MEDIA QUERIES
 ------------------------------------------------------------------------------
