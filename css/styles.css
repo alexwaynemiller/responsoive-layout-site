@@ -149,7 +149,7 @@ text-align: center;
 }
 
 
-#student_name {
+#student-name {
  display: flex;
  justify-content: center;
  margin: 0 auto;
@@ -191,7 +191,9 @@ MEDIA QUERIES
         margin-right: 15px;
         background-color: whitesmoke;
     } 
-
+    .nav-item {
+        background-color: whitesmoke;
+    }
     .main-nav li:last-child{
         margin-right: 0;
     }
@@ -211,15 +213,7 @@ MEDIA QUERIES
     }
     
 
-
-
-
-
-
-
-
-
-    footer {
+    .mobile-footer {
         display: flex;
     
     }
@@ -227,7 +221,7 @@ MEDIA QUERIES
     #footer-nav {
         display: flex;    
         justify-content: flex-end;
-        text-align: right;
+        
     }
 
     #intro_paragraph_image {
@@ -264,33 +258,36 @@ MEDIA QUERIES
 @media screen and (min-width: 1024px) { 
     
     
-    .main-nav{
+    .header-flex {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    ul {
         display: flex;
         justify-content: flex-end;
-
-    
+        margin: 0;
     }
 
-    .main-nav, .main-nav li{
-        width: initial;
-        margin-bottom: 0;
-      
+    .nav-item {
+        background-color: whitesmoke;
     }
-
 
     section {
         width: 33%;
         margin: 0 auto;
         padding: 0 1em;
     }
-
     
 
    #back-to-top {
        display: none;
    }
 
-   
+   #student-name {
+       margin: 0;
+   }
     
   }
 
