@@ -20,6 +20,7 @@ BASE STYLING
 img {
     width: 100%;
     margin: 2em auto;
+    margin-top: 0;
     padding: 0;
 }
 
@@ -35,10 +36,10 @@ body {
 main {
     padding: 0;
     margin-top: 1rem;
+    background-color: white;
 
 }
 footer {
-    display: flex;
     background-color:whitesmoke;
     margin: 0 auto;
     padding: 1em;
@@ -54,6 +55,7 @@ footer {
 #footer-nav{
     display: none;
     margin: 2rem;
+    margin-top: 0;
     width: 100%;
     
 }
@@ -83,6 +85,7 @@ header {
 
 p {
     font-size: 1.25em;
+    padding: 1.5rem;
 }
 
 a{
@@ -103,6 +106,8 @@ a:hover {
     background-color: whitesmoke;
     margin: 0;
     padding: 3em;
+    text-align: center;
+    line-height: 2rem;
 
 }
 
@@ -160,6 +165,8 @@ text-align: center;
 
 #portfolio {
     text-align: center;
+    padding: 3rem 0;
+    margin-top: 1rem;
 }
 
 
@@ -181,11 +188,15 @@ MEDIA QUERIES
 
 @media screen and (min-width: 768px){
     
+    ul {
+        display: flex;
+        justify-content: center;
+    }
     .main-nav{
         margin-top: 0;
     }
     .main-nav li {
-        display: inline-block;   
+        /* display: flex;    */
         margin-top: 0;
         width: auto;
         margin-right: 15px;
