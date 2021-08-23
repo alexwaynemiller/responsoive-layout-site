@@ -241,6 +241,17 @@ h5 {
 #skills {
     padding-top: 2rem;
 }
+
+.skillsets{
+    background-color: darkgray;
+    width: 100%;
+}
+
+
+.code-skills {
+width: 100%;
+    /* background-color: darkgray; */
+}
 /* 
 
 ------------------------------------------------------------------------------
@@ -426,13 +437,13 @@ MEDIA QUERIES
        }
 
     #code-logos {
-        width: 100%;
+        width: 50%;
         margin-left: auto;
         margin-right: auto;
     }
 
     .skillsets {
-       width: 50%;
+       width: 100%;
        margin-left: auto;
        margin-right: auto;
     }
