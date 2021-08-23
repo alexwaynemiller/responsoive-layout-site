@@ -237,6 +237,10 @@ h5 {
     display: flex;
     flex-direction: column;
 }
+
+#skills {
+    padding-top: 2rem;
+}
 /* 
 
 ------------------------------------------------------------------------------
@@ -421,7 +425,17 @@ MEDIA QUERIES
         
        }
 
+    #code-logos {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
+    .skillsets {
+       width: 50%;
+       margin-left: auto;
+       margin-right: auto;
+    }
   }
 
   
