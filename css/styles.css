@@ -53,10 +53,9 @@ footer {
 }
 
 .footer-name{
-    margin-right: 0 auto;
-    padding-left: none;
-    margin-left: 2rem;
-}
+    margin-left: 5rem;
+    padding-top: .25rem;
+} 
 
 #footer-nav{
     display: none;
@@ -95,8 +94,8 @@ header {
 p {
     font-size: 1.25em;
     padding: 1.5rem;
-    padding-bottom: 2rem;
     margin-bottom: 0;
+    padding-top: 0;
 }
 
 a{
@@ -116,10 +115,9 @@ a:hover {
 #contact {
     background-color: whitesmoke;
     margin: 0;
-    padding: 3em;
+    padding: 0 5em;
     text-align: center;
-    line-height: 2rem;
-    
+    padding-top: 2rem;
 
 }
 
@@ -176,6 +174,8 @@ text-align: center;
  margin: 0 auto;
  margin-bottom: .5em;
  margin-left: auto;
+
+ 
 }
 
 
@@ -273,7 +273,8 @@ MEDIA QUERIES
     }
 
     .bottom-nav li {
-        padding: 1rem;
+        padding:  0 1rem;
+        margin-top: 0;
     }
 
     #intro_paragraph_image {
@@ -324,12 +325,15 @@ MEDIA QUERIES
         
     }
 
+    #intro {
+        padding-left: .25rem;
+    }
    
     .student-name {
         width: 50%;
         justify-content: flex-start;
-        margin-right: auto;
-        margin-left: 1rem;
+        margin-right: auto; 
+        margin-left: 0;
         padding: .25rem;
     }
 
