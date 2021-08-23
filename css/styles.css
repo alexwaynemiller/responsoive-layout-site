@@ -265,9 +265,17 @@ MEDIA QUERIES
 
     .bottom-nav {
         display: flex;
-        margin-left: 0;
+        margin-left: auto;
+        margin: 0;
+        padding-right: 2rem;
+        
         
     }
+
+    .bottom-nav li {
+        padding: 1rem;
+    }
+
     #intro_paragraph_image {
         display: flex;
         flex-direction: row-reverse;
