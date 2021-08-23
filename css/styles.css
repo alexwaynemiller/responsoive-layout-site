@@ -48,14 +48,16 @@ footer {
 
 .mobile-footer {
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
+    
 }
 
-h5 {
-    margin: 0;
-    margin-right: auto;
+.footer-name{
+    margin-right: 0 auto;
+    padding-left: none;
     margin-left: 2rem;
 }
+
 #footer-nav{
     display: none;
     margin: 2rem;
@@ -94,6 +96,7 @@ p {
     font-size: 1.25em;
     padding: 1.5rem;
     padding-bottom: 2rem;
+    margin-bottom: 0;
 }
 
 a{
@@ -116,6 +119,7 @@ a:hover {
     padding: 3em;
     text-align: center;
     line-height: 2rem;
+    
 
 }
 
@@ -166,7 +170,7 @@ text-align: center;
 }
 
 
-#student-name {
+.student-name {
  display: flex;
  justify-content: center;
  margin: 0 auto;
@@ -250,15 +254,20 @@ MEDIA QUERIES
 
     .mobile-footer {
         display: flex;
-    
+        
     }
 
     #footer-nav {
         display: flex;    
         justify-content: flex-end;
-        
+        margin-left: auto;
     }
 
+    .bottom-nav {
+        display: flex;
+        margin-left: 0;
+        
+    }
     #intro_paragraph_image {
         display: flex;
         flex-direction: row-reverse;
@@ -287,7 +296,9 @@ MEDIA QUERIES
     #back-to-top {
         display: none;
      }
-    
+   
+     
+     
 }
 
 
@@ -297,17 +308,36 @@ MEDIA QUERIES
 @media screen and (min-width: 1024px) { 
     
     
+
     .header-flex {
         display: flex;
-        justify-content: space-between;
+        padding: 0;
+        margin: 0;
         
     }
 
+   
+    .student-name {
+        width: 50%;
+        justify-content: flex-start;
+        margin-right: auto;
+        margin-left: 1rem;
+        padding: .25rem;
+    }
+
+    h1 {
+        text-align: left;
+    }
+
     ul {
+        margin-right: 1rem;
+    
+    }
+    /* ul {
         display: flex;
         justify-content: flex-end;
-        margin: 0;
-    }
+        margin: 0 .5rem;
+    } */
 
     .nav-item {
         background-color: whitesmoke;
@@ -324,9 +354,7 @@ MEDIA QUERIES
        display: none;
    }
 
-   #student-name {
-       margin: 0;
-   }
+   
     img {
         width: 100%;
         padding: 0;
