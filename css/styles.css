@@ -87,7 +87,6 @@ header {
 
 .nav-pic { 
     padding: 3em;
-    margin: 0 0;
     padding-bottom: 0;
 }
 
@@ -198,6 +197,11 @@ h2 {
     margin: 0;
     padding-right: 2rem;
 }
+
+#intro_paragraph_image {
+    display: flex;
+    flex-direction: column;
+}
 /* 
 
 ------------------------------------------------------------------------------
@@ -263,8 +267,13 @@ MEDIA QUERIES
     .nav-pic { 
         padding-top: 1.25em;
         padding-right: 1em;
+        
+        width: 50%;
     } 
 
+    #intro {
+        text-align: left;
+    }
     #portfolio {
         display: flex;
         flex-direction: column;
