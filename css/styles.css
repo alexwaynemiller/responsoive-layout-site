@@ -82,7 +82,7 @@ content{
 header {
     padding: 1em;
     background-color: whitesmoke;
-
+    margin-top: 2em;
 }
 
 .nav-pic { 
@@ -214,6 +214,7 @@ MEDIA QUERIES
     ul {
         display: flex;
         justify-content: center;
+        margin-bottom: 1rem;
     }
     .main-nav{
         margin-top: 0;
@@ -279,7 +280,6 @@ MEDIA QUERIES
         flex-direction: column;
         margin-left: auto;
         margin-top: 1.5rem;
-        padding: 1rem;
         background-color: white;
         width: 100%;
     }
