@@ -48,13 +48,13 @@ footer {
 
 .mobile-footer {
     display: flex;
-    /* justify-content: flex-end; */
+    justify-content: space-between;
     
 }
 
 .footer-name{
-    margin-left: 5rem;
-    padding-top: .25rem;
+   margin-right: auto;
+   padding-left: 2rem;
 } 
 
 #footer-nav{
@@ -83,12 +83,14 @@ content{
 header {
     padding: 1em;
     background-color: whitesmoke;
-    margin-top: 2em;
+    /* margin-top: 1em; */
 }
 
 .nav-pic { 
-    padding: 3em;
+    padding: 1.5em;
     padding-bottom: 0;
+    margin-top:  1rem;
+    margin-bottom: 1rem;
 }
 
 p {
@@ -115,9 +117,10 @@ a:hover {
 #contact {
     background-color: whitesmoke;
     margin: 0;
-    padding: 0 5em;
+    padding: 0;
     text-align: center;
     padding-top: 2rem;
+    
 
 }
 
@@ -134,6 +137,10 @@ section {
     padding-bottom: 0.5rem;
    
 
+}
+
+#email {
+    padding-bottom: 2rem;
 }
 
 #email, #phone {
@@ -181,7 +188,7 @@ text-align: center;
  display: flex;
  justify-content: center;
  margin: 0 auto;
- margin-bottom: .5em;
+ margin-bottom: 1rem;
  margin-left: auto;
 
  
@@ -203,6 +210,17 @@ text-align: center;
 
 h2 {
     margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+h4 {
+    padding-bottom: 2rem;
+}
+
+h5 {
+    margin-left: 0;
+    
+
 }
 
 #back-to-top{
@@ -260,6 +278,9 @@ MEDIA QUERIES
         padding: 0 1em;
     }
     
+    .footer-name {
+        margin-left: 2rem;
+    }
 
     .mobile-footer {
         display: flex;
